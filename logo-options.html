@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<title>ตัวเลือกโลโก้</title>
+<style>
+  :root { --navy:#17418f; }
+  * { box-sizing:border-box; }
+  body { margin:0; padding:28px; font-family:"Noto Sans Thai","Sarabun",system-ui,sans-serif; background:#eef2f8; color:#12233f; }
+  h1 { font-size:18px; margin:0 0 18px; }
+  h2 { font-size:14px; margin:0 0 10px; color:#475569; font-weight:600; }
+  .grid { display:grid; gap:18px; grid-template-columns:repeat(auto-fit,minmax(430px,1fr)); }
+  .card { background:#fff; border:1px solid #dbe3ef; border-radius:12px; overflow:hidden; }
+  .card .body { padding:12px; }
+  .hdr { border-bottom:4px solid #ffc800; background:#fff; padding:8px 16px; }
+  .row { display:flex; align-items:center; gap:16px; }
+  .t1 { font-weight:700; color:var(--navy); font-size:16px; line-height:1.3; }
+  .t2 { font-size:12px; color:#64748b; }
+  .big { display:flex; align-items:center; gap:14px; margin-top:12px; padding-top:12px; border-top:1px dashed #e2e8f0; }
+  .cap { font-size:11px; color:#94a3b8; margin-top:6px; }
+  .disc { border-radius:9999px; object-fit:cover; display:block; }
+  .sq { border-radius:10px; object-fit:cover; display:block; }
+  .ring { border:1px solid #e2e8f0; }
+  .lightdisc { border-radius:9999px; background:#f1f5f9; display:grid; place-items:center; }
+  .tag { display:inline-block; font-size:11px; font-weight:700; color:#fff; background:#17418f; border-radius:6px; padding:2px 8px; margin-bottom:8px; }
+</style>
+</head>
+<body>
+<h1>เลือกแบบโลโก้ในหัวเว็บ</h1>
+<div class="grid">
+
+  <div class="card">
+    <div class="body"><span class="tag">A</span><h2>วงกลมพื้นน้ำเงิน 56px (แบบปัจจุบัน)</h2></div>
+    <div class="hdr"><div class="row">
+      <img class="disc ring" src="/images/logo-sac.png" width="56" height="56" alt="">
+      <div><div class="t1">กองควบคุมระบบ ฝ่ายปฏิบัติการภาคใต้</div><div class="t2">ข้อมูลจากรายงาน SAC · ปรับปรุง 10 พ.ย. 2569</div></div>
+    </div></div>
+    <div class="body"><div class="big">
+      <img class="disc ring" src="/images/logo-sac.png" width="112" height="112" alt="">
+      <div class="cap">ขนาดขยาย 112px</div>
+    </div></div>
+  </div>
+
+  <div class="card">
+    <div class="body"><span class="tag">B</span><h2>วงกลมพื้นน้ำเงิน 40px (เล็กลง)</h2></div>
+    <div class="hdr"><div class="row">
+      <img class="disc ring" src="/images/logo-sac.png" width="40" height="40" alt="">
+      <div><div class="t1">กองควบคุมระบบ ฝ่ายปฏิบัติการภาคใต้</div><div class="t2">ข้อมูลจากรายงาน SAC · ปรับปรุง 10 พ.ย. 2569</div></div>
+    </div></div>
+    <div class="body"><div class="big">
+      <img class="disc ring" src="/images/logo-sac.png" width="112" height="112" alt="">
+      <div class="cap">ขนาดขยาย 112px</div>
+    </div></div>
+  </div>
+
+  <div class="card">
+    <div class="body"><span class="tag">C</span><h2>โลโก้โปร่งใส บนพื้นขาว 48px</h2></div>
+    <div class="hdr"><div class="row">
+      <img src="/images/logo-mark.png" height="48" alt="">
+      <div><div class="t1">กองควบคุมระบบ ฝ่ายปฏิบัติการภาคใต้</div><div class="t2">ข้อมูลจากรายงาน SAC · ปรับปรุง 10 พ.ย. 2569</div></div>
+    </div></div>
+    <div class="body"><div class="big">
+      <img src="/images/logo-mark.png" height="112" alt="">
+      <div class="cap">ขนาดขยาย 112px</div>
+    </div></div>
+  </div>
+
+  <div class="card">
+    <div class="body"><span class="tag">D</span><h2>โลโก้โปร่งใส ในวงกลมพื้นเทาอ่อน 56px</h2></div>
+    <div class="hdr"><div class="row">
+      <div class="lightdisc" style="width:56px;height:56px"><img src="/images/logo-mark.png" height="40" alt=""></div>
+      <div><div class="t1">กองควบคุมระบบ ฝ่ายปฏิบัติการภาคใต้</div><div class="t2">ข้อมูลจากรายงาน SAC · ปรับปรุง 10 พ.ย. 2569</div></div>
+    </div></div>
+    <div class="body"><div class="big">
+      <div class="lightdisc" style="width:112px;height:112px"><img src="/images/logo-mark.png" height="80" alt=""></div>
+      <div class="cap">ขนาดขยาย 112px</div>
+    </div></div>
+  </div>
+
+  <div class="card">
+    <div class="body"><span class="tag">E</span><h2>สี่เหลี่ยมมุมโค้ง 48px</h2></div>
+    <div class="hdr"><div class="row">
+      <img class="sq ring" src="/images/logo-sac.png" width="48" height="48" alt="">
+      <div><div class="t1">กองควบคุมระบบ ฝ่ายปฏิบัติการภาคใต้</div><div class="t2">ข้อมูลจากรายงาน SAC · ปรับปรุง 10 พ.ย. 2569</div></div>
+    </div></div>
+    <div class="body"><div class="big">
+      <img class="sq ring" src="/images/logo-sac.png" width="112" height="112" alt="">
+      <div class="cap">ขนาดขยาย 112px</div>
+    </div></div>
+  </div>
+
+  <div class="card">
+    <div class="body"><span class="tag">F</span><h2>โลโก้ กฟผ. เดิม (logo.png 48px)</h2></div>
+    <div class="hdr"><div class="row">
+      <img src="/logo.png" height="48" alt="">
+      <div><div class="t1">กองควบคุมระบบ ฝ่ายปฏิบัติการภาคใต้</div><div class="t2">ข้อมูลจากรายงาน SAC · ปรับปรุง 10 พ.ย. 2569</div></div>
+    </div></div>
+    <div class="body"><div class="big">
+      <img src="/logo.png" height="112" alt="">
+      <div class="cap">ขนาดขยาย 112px</div>
+    </div></div>
+  </div>
+
+</div>
+</body>
+</html>
